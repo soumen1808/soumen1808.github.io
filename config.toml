@@ -1,0 +1,61 @@
+#baseurl = "http://172.20.0.2/"
+baseurl = "https://soumen1808.github.io/"
+title = "Cache Aligned"
+theme = "hugo-theme-texify"
+languageCode = "en"
+paginate = 7
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Reading Lists"
+url = "/categories/reading-list"
+weight = 2
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 3
+
+# [[menu.main]]
+# name = "Projects"
+# url = "/categories/projects"
+# weight = 1
+
+# [[menu.main]]
+# name = "Skills"
+# url = "/skills"
+# weight = 4
+
+[[menu.main]]
+name = "All Posts"
+url = "/posts"
+weight = 5
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 10
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # Allow HTML in md files
+  [markup.highlight]
+    style = "paraiso-dark"
+
+[params]
+  rss = true
+  mathjax = true
+  description = "A digital space for sharing my thoughts."
+#  favicon = "img/favicon.png"
+
+#  footnote = """
+#<a class=link href=https://github.com/fhightower>GitHub</a> |
+#<a class=link href=https://500px.com/p/fhightower?view=photos>500px</a> |
+#<a class=link href=mailto:floyd.hightower27@gmail.com>Email</a> |
+#<a class=link href=/index.xml>RSS</a>
+#"""
+#
